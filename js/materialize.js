@@ -2251,7 +2251,7 @@ $jscomp.polyfill = function (e, r, p, m) {
        * @prop {Element} container - Container element to attach dropdown to (optional)
        * @prop {Boolean} [coverTrigger=true] - Place dropdown over trigger
        * @prop {Boolean} [closeOnClick=true] - Close on click of dropdown item
-       * @prop {Boolean} [hover=false] - Open dropdown on hover
+       * @prop {Boolean} [hover=true] - Open dropdown on hover
        * @prop {Number} [inDuration=150] - Duration of open animation in ms
        * @prop {Number} [outDuration=250] - Duration of close animation in ms
        * @prop {Function} onOpenStart - Function called when dropdown starts opening
@@ -7572,7 +7572,7 @@ $jscomp.polyfill = function (e, r, p, m) {
         });
       } else if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i'))) {
         $card.css('overflow', 'hidden');
-        $cardReveal.css({ display: 'block' });
+        $cardReveal.css({ display: 'block'});
         anim({
           targets: $cardReveal[0],
           translateY: '-100%',
@@ -12335,3 +12335,13 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   Range.init($('input[type=range]'));
 })(cash, M.anime);
+
+$('.dropdown-trigger').dropdown();
+
+$(document).ready(function(){
+  $('.collapsible').collapsible();
+});
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});

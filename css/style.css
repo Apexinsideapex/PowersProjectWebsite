@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +54,68 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.img1{
+  height: 100%%;
+  width: 100%;
+}
+
+
+.img1txt{
+  align-items: center;
+  visibility: visible;
+  float: left;
+}
+
+.card-reveal{
+  background-color: rgba(255,255,255,.1);
+}
+
+.left-section{
+  position: relative;
+  top: 50%;
+}
+
+.row{
+  display: flex;
+}
+
+.social-media{
+  display: inline;
+}
+
+.card-content{
+  display: none;
+}
+
+.card{
+  margin-top: 50px;
+}
+
+.left-section{
+  position: -webkit-sticky;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-top: 65px;
+}
+
+
+.page-footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 100%;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 15%;
+  min-height: 100%;
 }
