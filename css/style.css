@@ -119,3 +119,13 @@ body {
   padding-bottom: 15%;
   min-height: 100%;
 }
+
+
+.team-image ~ img{
+  height: 500;
+  width: 400;
+}
+
+.team-info{
+  
+}
