@@ -102,30 +102,67 @@ footer.page-footer {
 }
 
 
-.page-footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 200px;
-  width: 100%;
-  margin-bottom: 0px;
-  margin-top: 100%;
-}
 
 body {
   position: relative;
   margin: 0;
-  padding-bottom: 15%;
   min-height: 100%;
 }
 
 
-.team-image ~ img{
-  height: 500;
-  width: 400;
+.team-image{
+  height: 70%;
+  width: 100%;
+  padding-top: 15%;
 }
 
-.team-info{
-  
+.info-arusha{
+  height: 70%;
+  width: 100%;
+  padding: 50px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer{
+  margin-top: 100%;
+  margin-bottom: 0;
+  height: 200%;
+}
+
+.contact-form{
+  margin: 50px;
+}
+
+.contact-image{
+  max-height: 300px;
+  width: 100%;
+}
+
+.first-image{
+  width: 100%;
+  height: 50%;
+}
+
+.info-icons{
+  height: 90%;
+  width: 90%;
+}
+
+nav{
+  height: 80px;
+  padding-top: 5px;
+}
+
+table{
+  margin-right: 15px;
+  margin-left: 15px;
 }
