@@ -84,13 +84,21 @@ footer.page-footer {
 .social-media{
   display: inline;
 }
-
+/*
 .card-content{
   display: none;
 }
-
+*/
 .card{
   margin-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.card-info{
+  padding: 25%;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 .left-section{
